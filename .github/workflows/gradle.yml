@@ -1,6 +1,6 @@
 name: Java auto build with Gradle
 
-on: [push]
+on: [push,workflow_dispatch]
 
 jobs:
   build:
